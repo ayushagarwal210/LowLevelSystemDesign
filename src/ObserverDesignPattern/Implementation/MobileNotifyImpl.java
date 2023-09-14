@@ -18,7 +18,7 @@ public class MobileNotifyImpl implements DisplayObserver{
     }
 
     private void sendMessage(String mobileNumber, String temparatureHasIncreased) {
-        System.out.println("Message sent to: "+mobileNumber);
+        System.out.println(temparatureHasIncreased+" Message sent to: "+mobileNumber);
     }
 
 }

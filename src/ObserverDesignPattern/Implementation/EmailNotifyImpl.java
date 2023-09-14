@@ -16,6 +16,6 @@ public class EmailNotifyImpl implements DisplayObserver {
     }
 
     private void sendEmail(String email, String temparatureHasIncreased) {
-        System.out.println("mail sent to: "+email);
+        System.out.println(temparatureHasIncreased+ " mail sent to: "+email);
     }
 }
