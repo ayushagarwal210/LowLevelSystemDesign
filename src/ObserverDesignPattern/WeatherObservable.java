@@ -6,5 +6,4 @@ public interface WeatherObservable {
     public void notifyMe();
     public void setTemperature(float data);
     public void getTempararture();
-
 }
